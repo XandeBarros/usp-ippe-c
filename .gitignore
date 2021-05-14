@@ -1,0 +1,7 @@
+# Para a pasta de configuração do vscode
+
+.vscode
+
+# Para todos os arquivos .out
+
+*.out
