@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-int valida(year) {
+int valida(int year) {
   int valid4, valid100, valid400;
 
-  valid4 = !((year % 4) == 0);
-  valid100 = !((year % 100) == 0);
-  valid400 = !((year % 400) == 0);
+  valid4 = ((year % 4) == 0);
+  valid100 = ((year % 100) == 0);
+  valid400 = ((year % 400) == 0);
 
-  return (valid400) || (valid4 && !valid100);
+  return ((valid400) || (valid4 && !valid100));
 }
 
 int main() {
@@ -15,11 +15,11 @@ int main() {
 
   scanf("%d %d", &yearmin, &yearmax);
 
-  while(valida(yearmin)) {
+  while(!valida(yearmin)) {
     ++yearmin;
   }
 
-  while (yearmax >= yearmin) {
+  while (yearmax > yearmin) {
     if(valida(yearmin)) {
       printf(" %d", yearmin);
     }
