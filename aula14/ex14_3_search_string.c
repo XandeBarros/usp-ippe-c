@@ -16,7 +16,7 @@ int searchString(char str1[], char str2[]) {
           i++;
           saux++;
 
-          if((saux == aux && (str1[i+1] == ' ' || str1[i+1] == '\0'))) {
+          if((saux == aux && (str1[i] == ' ' || str1[i] == '\0'))) {
             return 1;
           }
         }
@@ -31,10 +31,12 @@ int searchString(char str1[], char str2[]) {
 
 int main() {
   char str1[200], str2[200];
-
-  gets(str1);
   
-  gets(str2);
+  scanf("%[^\n]", str1);
+
+  __fpurge(stdin);
+  
+  scanf("%[^\n]", str2);
 
   int result = searchString(str1, str2);
 
