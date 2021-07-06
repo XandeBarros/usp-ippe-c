@@ -132,9 +132,8 @@ void procurarFuncionarioID(int numFunc, struct Funcionario funcionario[]) {
 }
 
 void procurarFuncionarioNome(int numFunc, struct Funcionario funcionario[]) {
-    printf("\n*#*#*#*#*#*#*#*#*#*#*#*#*#*# Busca de Funcionário (Por Nome) #*#*#*#*#*#*#*#*#*#*#*#*#*#*\n");
+  printf("\n*#*#*#*#*#*#*#*#*#*#*#*#*#*# Busca de Funcionário (Por Nome) #*#*#*#*#*#*#*#*#*#*#*#*#*#*\n");
 
-  
   char NOME[200];
   int aux = 0;
 
