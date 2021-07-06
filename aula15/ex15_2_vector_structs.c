@@ -79,17 +79,14 @@ int inserirFuncionario(int numFunc, struct Funcionario funcionario[]) {
 
   __fpurge(stdin);
   printf("Nome: ");
-  // fgets(funcionario[numFunc].nome, 200, stdin);
   scanf("%[^\n]", funcionario[numFunc].nome);
 
   __fpurge(stdin);
   printf("Telefone: (xx) xxxxx-xxxx ");
-  // fgets(funcionario[numFunc].telefone, 15, stdin);
   scanf("%[^\n]", funcionario[numFunc].telefone);
 
   __fpurge(stdin);
   printf("Cargo: ");
-  // fgets(funcionario[numFunc].cargo, 100, stdin);
   scanf("%[^\n]", funcionario[numFunc].cargo);
 
   printf("Idade: ");
