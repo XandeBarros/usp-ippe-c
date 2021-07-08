@@ -1,0 +1,17 @@
+O meu nome é danny bond
+
+Modelo: Uno
+Cor: Preto
+Preço: 20000
+Modelo: Uno
+Cor: Rosa
+Preço: 19000
+Modelo: Uno
+Cor: Amarelo
+Preço: 21000
+Modelo: Uno
+Cor: Vermelho
+Preço: 15000
+Modelo: Uno 
+Cor: Roxo
+Preço: 22000
