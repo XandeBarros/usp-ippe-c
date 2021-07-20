@@ -33,4 +33,6 @@ int main() {
   vezesB = searchString(stringS, palavraB);
 
   printf("%d %d", vezesA, vezesB);
+
+  fclose(arq);
 }
